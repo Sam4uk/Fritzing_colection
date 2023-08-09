@@ -38,7 +38,7 @@ jobs:
           do 
               echo "Found $i Fritzing part file"
               echo "Pack files to $i.fzpz"
-              zip $i.fzpz $i_*.svg $i.fzp
+              zip ./_site/$i.fzpz $i_*.svg $i.fzp
           #    echo zip $i.zip $i*.svg; 
               echo "                 DONE"
           done
